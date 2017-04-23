@@ -1,1 +1,7 @@
 node_modules/
+.meteor/.finished-upgraders
+.meteor/.gitignore
+.meteor/.id
+.meteor/platforms
+.meteor/release
+.meteor/versions
