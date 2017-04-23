@@ -1,4 +1,8 @@
 Template.test.onRendered( function () {
+    renderHighcharts();
+});
+
+function renderHighcharts() {
     var Highcharts = require('highcharts/highstock');
     $(function () {
         Highcharts.setOptions({
@@ -76,4 +80,4 @@ Template.test.onRendered( function () {
             }]
         });
     });
-});
+}
